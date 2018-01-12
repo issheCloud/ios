@@ -86,6 +86,7 @@ extern NSString *const dav;
 
 #define k_networkingSessionNotification                 @"networkingSessionNotification"
 
+/*
 // Session
 #define k_domain_session_queue                          @"it.twsweb.Crypto-Cloud"
 
@@ -106,6 +107,28 @@ extern NSString *const dav;
 // Service Key Share
 #define k_serviceShareKeyChain                          @"Crypto Cloud"
 #define k_metadataKeyedUnarchiver                       @"it.twsweb.nextcloud.metadata"
+*/
+
+#define k_domain_session_queue                          @"com.qilun.Crypto-Cloud"
+
+#define k_download_session                              @"com.qilun.Crypto-Cloud.download.session"
+#define k_download_session_foreground                   @"com.qilun.Crypto-Cloud.download.sessionforeground"
+#define k_download_session_wwan                         @"com.qilun.Crypto-Cloud.download.sessionwwan"
+#define k_upload_session                                @"com.qilun.Crypto-Cloud.upload.session"
+#define k_upload_session_foreground                     @"com.qilun.Crypto-Cloud.upload.sessionforeground"
+#define k_upload_session_wwan                           @"com.qilun.Crypto-Cloud.upload.sessionwwan"
+
+// OperationQueue
+#define k_queue                                         @"com.qilun.Crypto-Cloud.queue"
+#define k_download_queue                                @"com.qilun.Crypto-Cloud.download.queue"
+#define k_download_queuewwan                            @"com.qilun.Crypto-Cloud.download.queuewwan"
+#define k_upload_queue                                  @"com.qilun.Crypto-Cloud.upload.queue"
+#define k_upload_queuewwan                              @"com.qilun.Crypto-Cloud.upload.queuewwan"
+
+// Service Key Share
+#define k_serviceShareKeyChain                          @"Crypto Cloud"
+#define k_metadataKeyedUnarchiver                       @"com.qilun.nextcloud.metadata"
+
 
 // TaskIdentifier
 #define k_taskIdentifierDone                            -1
